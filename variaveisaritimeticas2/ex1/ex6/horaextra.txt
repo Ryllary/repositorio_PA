@@ -1,0 +1,25 @@
+Algoritmo "horaextra
+//Disciplina: PA
+// Professora: Edilma Bindá
+// Turma: 1°C
+// Nome: Ryllary
+// Data: 07/04/2023
+
+
+escreval ("Digite os minutos extras:")
+leia (minutos)
+
+escreval ("Digite o valor por hora extra:")
+leia (valorph)
+
+//processamento
+num <- (minutos/60)+horas
+vtotal <- num*valorph
+vadd <- vtotal+(vtotal*70/100)
+
+//saida
+escreval ("Você receberá pelas horas extras trabalhadas R$", vadd)
+
+
+Fimalgoritmo
+
