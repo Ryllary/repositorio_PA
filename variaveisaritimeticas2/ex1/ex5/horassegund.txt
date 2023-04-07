@@ -1,0 +1,29 @@
+Algoritmo "horassegund"
+//Disciplina: PA
+// Professora: Edilma Bindá
+// Turma: 1°C
+// Nome: Ryllary
+// Data: 07/04/2023
+
+var
+horas, minutos, segundos, cmin, num: real
+
+//entrada
+início
+escreval ("Digite as horas: ")
+leia (horas)
+
+escreval ("Digite os minutos:")
+leia (minutos)
+
+//processamento
+cmin <- (horas*60)+minutos
+num <- cmin/60
+segundos <- cmin*60
+
+//saida
+escreval (horas, "h", minutos, "é igual a", segundos, "segundos. E a representação numérica é", num)
+
+
+Fimalgoritmo
+
