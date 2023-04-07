@@ -1,0 +1,25 @@
+Algoritmo "dolaremreal"
+// Disciplina: pa
+// Professora: Edilma Bindá
+// Autor(a): Ryllary
+// Dados atuais: 07/04/2023
+var
+realbr, cotacao, dolar : real
+
+
+início
+// entrada
+escreval ("Digite o valor a ser convertido: ")
+leia (dolar)
+escreval ("Digite a cotação do dólar: ")
+leia (cotação)
+
+//processamento
+realbr <- dolar * cotacao
+
+//saida
+escreval (" O valor em R$ é: ", realbr)
+
+
+
+Fimalgoritmo
