@@ -1,0 +1,26 @@
+Algoritmo "custoconsumidor"
+//Disciplina: PA
+// Professora: Edilma Bindá
+// Turma: 1°C
+// Nome: Ryllary
+// Data: 07/04/2023
+
+var
+fabricac, imposto, distri: real
+
+//entrada
+início
+escreval ("Digite o custo de fabricação do carro: ")
+leia (fabricac)
+
+
+//processamento
+imposto <- (fabricac * 45/100)+ fabricac
+distri <- (imposto * 28/100) + imposto
+
+
+//saida
+espelle ("O valor do carro para o consumidor é: ", distri)
+
+
+Fimalgoritmo
