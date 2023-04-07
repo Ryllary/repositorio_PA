@@ -1,0 +1,32 @@
+Algoritmo "consumogasolina"
+//Disciplina: PA
+// Professora: Edilma Bindá
+// Turma: 1°C
+// Nome: Ryllary
+// Data: 07/04/2023
+
+
+var
+km, combpkm, lcomb, ida, idaevolta: real
+
+//entrada
+início
+escreval ("Digite a quantidade de km percorrido: ")
+leia (km)
+
+escreval ("Digite a quantidade de combustível por km:")
+leia (combpkm)
+
+escreval ("Digite o valor por litro do combustível:")
+leia (lcomb)
+
+//processamento
+ida <- (km/combpkm)* lcomb
+idaevolta <- ida*2
+
+//saida
+espel ("Em sua viagem, percorrendo", km, "km, você gastará R$", ida, "de combustível. Caso faça ida e volta, gastará R$", idaevolta,".")
+
+
+Fimalgoritmo
+
