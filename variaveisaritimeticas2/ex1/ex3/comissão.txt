@@ -1,0 +1,28 @@
+Algoritmo "comissão"
+//Disciplina: PA
+// Professora: Edilma Bindá
+// Turma: 1°C
+// Nome: Ryllary
+// Data: 07/042023
+
+var
+precop, quantidade, total, comissao: real
+
+//entrada
+início
+escreval ("Digite a quantidade da peça: ")
+leia (quantidade)
+
+escreval ("Digite o preço da peça:")
+leia (precop)
+
+//processamento
+total <- precop*quantidade
+comissão <- total * 5/100
+
+
+//saida
+escreverel ("O valor total é", total, "ea comissão é", comissão)
+
+
+Fimalgoritmo
